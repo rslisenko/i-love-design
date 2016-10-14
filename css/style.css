@@ -1,8 +1,6 @@
 body{
-
+	font: 14px/1.4 'Segoe UI', Helvetica, Arial, serif;
 }
-
-
 
 /* Layout */
 .ba-container{
@@ -10,8 +8,6 @@ body{
 	padding-right: 20px;
 	max-width: 1200px;
 }
-
-
 
 /* Typography */
 a,
@@ -59,4 +55,85 @@ select:focus {
 }
 textarea {
 
+}
+.ba-header {
+	background-color: #23232E;
+	text-align: center;
+	padding-top: 80px;
+}
+.ba-container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ba-logo {
+	width: 134px;
+	height: 134px;
+}
+.ba-site-title {
+	color: #ffffff;
+	font-size: 80px;
+	font-weight: 700;
+	margin: 180px 0 45px 0;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.ba-site-subtitle {
+	max-width: 420px;
+	margin: 0 auto;
+}
+.ba-header p {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+}
+.ba-btn-scroll-down {
+	display: inline-block;
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	margin: 170px 0 50px 0;
+}
+.ba-btn-scroll-down i {
+	font-size: 20px;
+	color: #FFF;
+	line-height: 41px;
+}
+.ba-article {
+	max-width: 860px;
+	padding: 130px 10px;
+}
+.ba-article p {
+	margin-bottom: 50px;
+	color: #464b4f;
+	font-size: 30px;
+	text-align: center;
+}
+.ba-section-name {
+	margin: 0 0 80px 0;
+	font-size: 80px;
+	font-weight: 700;
+	color: #464b4f;
+	text-align: center;
+	text-transform: uppercase;
+}
+.ba-columns {
+	max-width: 940px;
+	font-size: 0;
+	margin-bottom: 100px;
+}
+.ba-column {
+	display: inline-block;
+	width: 33.33%;
+	padding: 0 20px;
+}
+.ba-column h3 {
+	color: #464b4f;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.ba-column p {
+	font-size: 18px;
+	color: #888a8b;
 }
