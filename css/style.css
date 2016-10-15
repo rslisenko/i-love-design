@@ -65,8 +65,10 @@ textarea {
 	max-width: 940px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 50px;
 }
 .ba-logo {
+	display: inline-block;
 	width: 134px;
 	height: 134px;
 }
@@ -93,7 +95,7 @@ textarea {
 	height: 41px;
 	border-radius: 50%;
 	border: 2px solid #fff;
-	margin: 170px 0 50px 0;
+	margin: 170px 0 0 0;
 }
 .ba-btn-scroll-down i {
 	font-size: 20px;
@@ -103,12 +105,12 @@ textarea {
 .ba-article {
 	max-width: 860px;
 	padding: 130px 10px;
-}
-.ba-article p {
-	margin-bottom: 50px;
 	color: #464b4f;
 	font-size: 30px;
 	text-align: center;
+}
+.ba-article p {
+	margin-bottom: 50px;
 }
 .ba-section-name {
 	margin: 0 0 80px 0;
@@ -119,9 +121,9 @@ textarea {
 	text-transform: uppercase;
 }
 .ba-columns {
-	max-width: 940px;
 	font-size: 0;
 	margin-bottom: 100px;
+	margin: 0 -20px;
 }
 .ba-column {
 	display: inline-block;
